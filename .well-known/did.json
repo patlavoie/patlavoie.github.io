@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:patlavoie.github.io",
+    "verificationMethod": [
+      {
+        "id": "did:web:patlavoie.github.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:patlavoie.github.io",
+        "publicKeyJwk": {
+            "kty": "EC",
+            "crv":"secp256k1",
+            "x": "4FYkDyHPmB4MLWnkvibKf/dmJ1cNarUUDwzn+D3uvy4=",
+            "y": "QWB0lWz+oUXvwGzOwd1e53xXzfkTTNJHPMTHytPMr+0="
+        }
+      }
+    ],
+    "authentication": [
+      "did:web:patlavoie.github.io#owner"
+    ],
+    "assertionMethod": [
+      "did:web:patlavoie.github.io#owner"
+    ]
+  }
