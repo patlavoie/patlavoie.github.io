@@ -15,6 +15,17 @@
             "x": "4FYkDyHPmB4MLWnkvibKf/dmJ1cNarUUDwzn+D3uvy4=",
             "y": "QWB0lWz+oUXvwGzOwd1e53xXzfkTTNJHPMTHytPMr+0="
         }
+      },
+      {
+        "id": "did:web:patlavoie.github.io#owner",
+        "type": "JsonWebKey2020",
+        "controller": "did:web:patlavoie.github.io",
+        "publicKeyJwk": {
+            "kty": "EC",
+            "crv":"secp256k1",
+            "x": "16eZ6ItDNdjPXiy6XM8+RqnA740vc31yIc9pX/In6wE=",
+            "y": "+CQutn/WXQ07VXQ8zh3yFCe4PIblK5JFalpyVFlIKRQ="
+        }
       }
     ],
     "authentication": [
